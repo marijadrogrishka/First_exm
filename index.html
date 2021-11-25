@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    
+    </head>
+<body>
+    
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    
+  <!-- Hero Section FIRST SECTION-->       
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>Welcome to <span></span></h1>
+        <h1 style="color: #149279;">Bitola <span></span></h1>        
+      </div>
+    </div>
+  </section>  
+    <!-- End Hero Section FIRST SECTION-->
+    <br><br>
+   <!-- Gallery section SECOND SECTION--> 
+   <section>       
+        <h2>Bitola Gallery</h2>  
+         
+        <div class="gallery">
+          <div class="column"><a href="./img/b11.jpg">
+              <img src = "./img/b11.jpg" alt="">
+            </a></div>
+
+            <div class="column"><a href="./img/b2.jpg">
+              <img src = "./img/b2.jpg" alt="">
+            </a></div>
+
+            <div class="column"><a href="./img/b3.jpg">
+              <img src = "./img/b3.jpg" alt="">
+            </a></div>
+
+            <div class="column"><a href="./img/b4.jpg">
+              <img src = "./img/b4.jpg" alt="">
+            </a></div>
+
+            <div class="column"><a href="./img/b5.jpg">
+              <img src = "./img/b5.jpg" alt=""> 
+            </a></div>
+
+            <div class="column"><a href="./img/b6.jpg">
+             <img src = "./img/b6.jpg" alt="">
+            </a></div>
+        </div> 
+      
+
+    </section>
+    <!-- END Gallery section SECOND SECTION--> 
+
+    <!-- Contact form- THIRD SECTION-->
+    <section>
+        <div class="container1">            
+            <div class="form">
+              <div class="contact-info">
+                <h3 class="title">Let's get in touch</h3>
+                <p class="text">
+                  Contact us for more info and details!
+                </p>
+      
+                <div class="info">
+                  <div class="information">
+                    <img src="img/location.png" class="icon" alt="" />
+                    <p>92 Partizanska, Bitola 7000</p>
+                  </div>
+                  <div class="information">
+                    <img src="img/email.png" class="icon" alt="" />
+                    <p>bitola@gmail.com</p>
+                  </div>
+                  <div class="information">
+                    <img src="img/phone.png" class="icon" alt="" />
+                    <p>123-456-789</p>
+                  </div>
+                </div>
+      
+                <div class="social-media">
+                  <p>Connect with us :</p>
+                  <div class="social-icons">
+                    <a href="#">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="contact-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>      
+                <form action="index.html" autocomplete="off">
+                  <h3 class="title">Contact us</h3>
+                  <div class="input-container">
+                    <input type="text" name="name" class="input" />
+                    <label for="">Username</label>
+                    <span>Username</span>
+                  </div>
+                  <div class="input-container">
+                    <input type="email" name="email" class="input" />
+                    <label for="">Email</label>
+                    <span>Email</span>
+                  </div>
+                  <div class="input-container">
+                    <input type="tel" name="phone" class="input" />
+                    <label for="">Phone</label>
+                    <span>Phone</span>
+                  </div>
+                  <div class="input-container textarea">
+                    <textarea name="message" class="input"></textarea>
+                    <label for="">Message</label>
+                    <span>Message</span>
+                  </div>
+                  <input type="submit" value="Send" class="btn" />
+                </form>
+              </div>
+            </div>
+          </div>           
+    </section> 
+    <script src="./app.js"></script>
+    <!--END Contact form- THIRD SECTION-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script>
+      //lightGallery(document.querySelector('.gallery'));
+          $("#gallery").lightGallery({
+          selector: '.item'
+          });           
+			
+    </script>
+
+    
+</body>
+</html>
